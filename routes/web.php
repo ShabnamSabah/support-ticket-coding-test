@@ -12,10 +12,6 @@ use App\Http\Middleware\AdminAuthenticationMiddleware;
 use App\Http\Middleware\CustomerAuthenticationMiddleware;
 use Illuminate\Support\Facades\Route;
 
-// frontend 
-
-// Route::get('/', [FrontEndController::class, 'home'])->name('home');
-
 
 // backend 
 Route::match(['get', 'post'], '/', [AuthenticationController::class, 'login'])->name('login');
