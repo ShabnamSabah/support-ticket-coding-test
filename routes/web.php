@@ -7,7 +7,6 @@ use App\Http\Controllers\backend\AuthenticationController;
 use App\Http\Controllers\backend\customer\TicketController;
 use App\Http\Controllers\backend\customer\DashboardController as CustomerDashboardController;
 use App\Http\Controllers\backend\customer\ProfileController as CustomerProfileController;
-use App\Http\Controllers\FrontEndController;
 use App\Http\Middleware\AdminAuthenticationMiddleware;
 use App\Http\Middleware\CustomerAuthenticationMiddleware;
 use Illuminate\Support\Facades\Route;
